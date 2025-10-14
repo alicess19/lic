@@ -1,0 +1,46 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    match /Chestionar/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    match /activity_logs/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    match /exercises/{exerciseId} {
+      allow read: if request.auth != null;  // Oricine autentificat poate citi
+      allow write: if request.auth.uid == "cYoLigzHiSQLK0yia68pYEXndV42"; //doar tu
+    }
+
+    match /food_database/{foodId} {
+      allow read: if request.auth != null;
+      allow write: if request.auth.uid == "cYoLigzHiSQLK0yia68pYEXndV42";
+    }
+
+    match /health_metrics/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    match /nutrition_logs/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    match /user/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    match /workout_plans/{planId} {
+      allow read: if request.auth != null;
+      allow write: if request.auth.uid == "cYoLigzHiSQLK0yia68pYEXndV42";
+    }
+
+    match /retete_database/{retetaId} {
+      allow read: if request.auth != null;
+      allow write: if request.auth.uid == "cYoLigzHiSQLK0yia68pYEXndV42";
+    }
+  }
+}

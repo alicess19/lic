@@ -1,0 +1,77 @@
+{
+  "auditReportVersion": 2,
+  "vulnerabilities": {
+    "babel-traverse": {
+      "name": "babel-traverse",
+      "severity": "critical",
+      "isDirect": false,
+      "via": [
+        {
+          "source": 1096879,
+          "name": "babel-traverse",
+          "dependency": "babel-traverse",
+          "title": "Babel vulnerable to arbitrary code execution when compiling specifically crafted malicious code",
+          "url": "https://github.com/advisories/GHSA-67hx-6x53-jw92",
+          "severity": "critical",
+          "cwe": [
+            "CWE-184",
+            "CWE-697"
+          ],
+          "cvss": {
+            "score": 9.4,
+            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
+          },
+          "range": "<7.23.2"
+        }
+      ],
+      "effects": [
+        "react-native-typescript-transformer"
+      ],
+      "range": "*",
+      "nodes": [
+        "node_modules/babel-traverse"
+      ],
+      "fixAvailable": {
+        "name": "react-native-typescript-transformer",
+        "version": "1.2.10",
+        "isSemVerMajor": true
+      }
+    },
+    "react-native-typescript-transformer": {
+      "name": "react-native-typescript-transformer",
+      "severity": "critical",
+      "isDirect": true,
+      "via": [
+        "babel-traverse"
+      ],
+      "effects": [],
+      "range": ">=1.2.11",
+      "nodes": [
+        "node_modules/react-native-typescript-transformer"
+      ],
+      "fixAvailable": {
+        "name": "react-native-typescript-transformer",
+        "version": "1.2.10",
+        "isSemVerMajor": true
+      }
+    }
+  },
+  "metadata": {
+    "vulnerabilities": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 0,
+      "critical": 2,
+      "total": 2
+    },
+    "dependencies": {
+      "prod": 744,
+      "dev": 377,
+      "optional": 4,
+      "peer": 8,
+      "peerOptional": 0,
+      "total": 1129
+    }
+  }
+}
