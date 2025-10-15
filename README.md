@@ -22,7 +22,7 @@ Cross-platform mobile app (iOS &amp; Android) built with React Native, Firebase 
 ---
 
 # Health Monitor App
-Developed as part of my Bachelor’s Thesis at the University Politehnica of Bucharest, Faculty of Electronics, Telecommunications and Information Technology.
+Developed as part of my Bachelor’s Thesis at the University Politehnica of Bucharest, Faculty of Electronics, Telecommunications and Information Technology, presented in June, 2025.
 
 ## App Overview
 The app provides users with a unified interface to track key physiological parameters such as:
