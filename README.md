@@ -6,10 +6,10 @@ Cross-platform mobile app (iOS &amp; Android) built with React Native, Firebase 
 | Welcome | Fitbit Integration | Home |
 |----------|--------------------|------|
 | ![Welcome](screenshots/Welcome.png) | ![Fitbit](screenshots/Fitbit.png) | ![Home](screenshots/Home.png) |
-/..
+
 | Sleep Monitor | Sleep Quality Model | BPM Tracker |
 |----------------|---------------------|--------------|
-| ![Sleep Monitor](screenshots/SleepMon.png) | ![Sleep Model](screenshots/SleepQualModel.png) | ![BPM](screenshots/BPM.png) |
+| ![Sleep Monitor](screenshots/SleepMon2.png) | ![Sleep Model](screenshots/SleepQualModel.png) | ![BPM](screenshots/BPM.png) |
 
 | Food Overview | Daily Food Journal | Nutrition Facts | Recommended Recipes |
 |----------------|--------------------|-----------------|----------------------|
@@ -19,7 +19,7 @@ Cross-platform mobile app (iOS &amp; Android) built with React Native, Firebase 
 |----------------|-------------------|------------------------|
 | ![Weight History](screenshots/KgHistoty.png) | ![YouTube Exercises](screenshots/YoutubeEx.png) | ![Recommended Exercises](screenshots/RecomEx.png) |
 
----
+
 
 # Health Monitor App
 Developed as part of my Bachelor’s Thesis at the University Politehnica of Bucharest, Faculty of Electronics, Telecommunications and Information Technology, presented in June, 2025.
