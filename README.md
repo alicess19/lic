@@ -3,21 +3,65 @@ Cross-platform mobile app (iOS &amp; Android) built with React Native, Firebase 
 
 ## Preview
 
-| Welcome | Fitbit Integration | Home |
-|----------|--------------------|------|
-| ![Welcome](screenshots/Welcome.png) | ![Fitbit](screenshots/Fitbit.png) | ![Home](screenshots/Home.png) |
+<table>
+  <tr>
+    <td align="center"><b>Welcome</b></td>
+    <td align="center"><b>Fitbit Integration</b></td>
+    <td align="center"><b>Home</b></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/Welcome.png" width="260"></td>
+    <td><img src="screenshots/Fitbit.png" width="260"></td>
+    <td><img src="screenshots/Home.png" width="260"></td>
+  </tr>
+</table>
 
-| Sleep Monitor | Sleep Quality Model | BPM Tracker |
-|----------------|---------------------|--------------|
-| ![Sleep Monitor](screenshots/SleepMon2.png) | ![Sleep Model](screenshots/SleepQualModel.png) | ![BPM](screenshots/BPM.png) |
+<br/>
 
-| Food Overview | Daily Food Journal | Nutrition Facts | Recommended Recipes |
-|----------------|--------------------|-----------------|----------------------|
-| ![Food Overview](screenshots/FoodOverview.png) | ![Daily Food](screenshots/DailyFoodJournal.png) | ![Nutrition Facts](screenshots/NutritionFacts.png) | ![Recipes](screenshots/RecomRecipes.png) |
+<table>
+  <tr>
+    <td align="center"><b>Sleep Monitor</b></td>
+    <td align="center"><b>Sleep Quality Model</b></td>
+    <td align="center"><b>BPM Tracker</b></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/SleepMon2.png" width="260"></td>
+    <td><img src="screenshots/SleepQualModel.png" width="260"></td>
+    <td><img src="screenshots/BPM.png" width="260"></td>
+  </tr>
+</table>
 
-| Weight History | YouTube Exercises | Recommended Exercises |
-|----------------|-------------------|------------------------|
-| ![Weight History](screenshots/KgHistoty.png) | ![YouTube Exercises](screenshots/YoutubeEx.png) | ![Recommended Exercises](screenshots/RecomEx.png) |
+<br/>
+
+<table>
+  <tr>
+    <td align="center"><b>Food Overview</b></td>
+    <td align="center"><b>Daily Food Journal</b></td>
+    <td align="center"><b>Nutrition Facts</b></td>
+    <td align="center"><b>Recommended Recipes</b></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/FoodOverview.png" width="220"></td>
+    <td><img src="screenshots/DailyFoodJournal.png" width="220"></td>
+    <td><img src="screenshots/NutritionFacts.png" width="220"></td>
+    <td><img src="screenshots/RecomRecipes.png" width="220"></td>
+  </tr>
+</table>
+
+<br/>
+
+<table>
+  <tr>
+    <td align="center"><b>Weight History</b></td>
+    <td align="center"><b>YouTube Exercises</b></td>
+    <td align="center"><b>Recommended Exercises</b></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/KgHistoty.png" width="260"></td>
+    <td><img src="screenshots/YoutubeEx.png" width="260"></td>
+    <td><img src="screenshots/RecomEx.png" width="260"></td>
+  </tr>
+</table>
 
 
 
