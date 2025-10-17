@@ -43,8 +43,8 @@ Cross-platform mobile app (iOS &amp; Android) built with React Native, Firebase 
   <tr>
     <td><img src="screenshots/FoodOverview.png" width="200"></td>
     <td><img src="screenshots/DailyFoodJournal.png" width="200"></td>
-    <td><img src="screenshots/NutritionFacts.png" width="200"></td>
-    <td><img src="screenshots/RecomRecipes.png" width="200"></td>
+    <td><img src="screenshots/NutritionFacts.png" width="190"></td>
+    <td><img src="screenshots/RecomRecipes.png" width="190"></td>
   </tr>
 </table>
 
